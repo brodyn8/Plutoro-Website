@@ -16,6 +16,18 @@
   --poppins-font: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--main-color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
 /* *****general styles***** */
 * {
   box-sizing: border-box;
